@@ -1,3 +1,4 @@
+//You’re given a data type. Print its size in bytes.//
 #include <iostream>
 #include <string>
 #include <algorithm>
@@ -5,7 +6,7 @@ using namespace std;
 
 int main() {
     string x;
-    cout << "Enter datatype: ";
+    cout << "Enter datatype:";
     cin >> x;
 	transform(x.begin(),x.end(),x.begin(),::tolower);
     int size;
